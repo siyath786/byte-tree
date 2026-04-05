@@ -9,7 +9,7 @@
     <!-- meta description  -->
     <meta
       name="description"
-      content="Byte Tree offers online courses to build real-world skills and grow your carrer in tech"
+      content="Byte Tree helps you learn in-demand tech skills through practical online courses, real-world projects, and career-focused learning paths."
     />
 
     <!-- canonical tag  -->
@@ -17,10 +17,12 @@
 
     <!-- robot tag -->
     <meta name="robots" content="index,follow" />
+    <meta name="robots" content="max-image-preview :large" />
 
     <!-- opengraph tag  -->
     <meta name="og:type" content="website" />
-    <meta name="og:title" content="Byte Tree|Learn In-Demand Tech Skills" />
+    <meta name="og:site_name" content="bytetree" />
+    <meta name="og:title" content="Byte Tree | Learn In-Demand Tech Skills" />
     <meta
       name="og:description"
       content="Byte Tree offers online courses to build real-world skills and grow your carrer in tech"
@@ -77,54 +79,29 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "Organization",
-            "@id": "https://bytetree.vercel.app/#organization",
-            "name": "Byte Tree",
-            "url": "https://bytetree.vercel.app/",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://bytetree.vercel.app/opzimg/image-removebg-preview-8.webp"
-            },
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://bytetree.vercel.app/opzimg/robots0.png"
-            },
-            "sameAs": ["https://bytetree.vercel.app"]
-          },
-
-          {
-            "@type": "WebSite",
-            "@id": "https://bytetree.vercel.app/#website",
-            "name": "Byte Tree",
-            "url": "https://bytetree.vercel.app/",
-            "publisher": {
-              "@id": "https://bytetree.vercel.app/#organization"
-            },
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://bytetree.vercel.app/?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          },
-
-          {
-            "@type": "Course",
-            "name": "Byte Tree Tech Skill Courses",
-            "description": "Learn in-demand skills with Byte Tree's online courses and grow your career.",
-            "provider": {
-              "@id": "https://bytetree.vercel.app/#organization"
-            },
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://bytetree.vercel.app/opzimg/robots0.png"
-            },
-            "educationalLevel": "Beginner",
-            "inLanguage": "English",
-            "courseMode": "online"
+        "@type": "WebSite",
+        "name": "Byte Tree",
+        "alternateName": "Byte Tree Tech Courses",
+        "url": "https://bytetree.vercel.app/",
+        "description": "Byte Tree helps you learn in-demand tech skills with modern online courses.",
+        "inLanguage": "en",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Byte Tree",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bytetree.vercel.app/opzimg/image-removebg-preview-8.webp"
           }
-        ]
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://bytetree.vercel.app/opzimg/robots0.png"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://bytetree.vercel.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
     <link rel="stylesheet" href="css/bt_loading.css" />
