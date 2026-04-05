@@ -132,8 +132,8 @@
 }
 
 .icon-circle-dark img {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   filter: brightness(0) invert(1);
 }
 
